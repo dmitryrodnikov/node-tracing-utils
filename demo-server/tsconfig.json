@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["es2015", "es2016"],
+        "sourceMap": false,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "outDir": "build",
+        "noUnusedLocals": false
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}
