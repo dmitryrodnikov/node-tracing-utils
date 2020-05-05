@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app-module';
-import { getNamespaceMiddleware } from '../../src/namespace-middleware';
+import { getNamespaceMiddleware } from '../../lib/src/namespace-middleware';
 import { createNamespace } from 'cls-hooked';
 
 const projectNamespace = createNamespace('project-namespace');
