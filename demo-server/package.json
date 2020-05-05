@@ -4,7 +4,8 @@
   "main": "src/main.ts",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "nodemon ./build/index.js"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.9",
@@ -14,6 +15,7 @@
     "rxjs": "^6.5.5"
   },
   "devDependencies": {
+    "nodemon": "^2.0.3",
     "ts-loader": "^7.0.2",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
