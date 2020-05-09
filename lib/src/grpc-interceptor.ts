@@ -60,12 +60,12 @@ export const grpcTracingInterceptor = (
         },
 
         halfClose(next) {
-            currentSpan?.addTags({halfClose: true});
+            currentSpan?.addTags({ halfClose: true });
             next();
         },
 
         cancel(next) {
-            currentSpan?.addTags({cancel: true});
+            currentSpan?.addTags({ cancel: true });
             currentSpan?.finish();
             next();
         },

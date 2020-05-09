@@ -13,5 +13,8 @@
     "jaeger-client": "^3.18.0",
     "opentracing": "^0.14.4",
     "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
