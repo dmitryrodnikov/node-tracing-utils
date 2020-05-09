@@ -5,11 +5,6 @@
         "experimentalDecorators": true,
         "allowJs": true
     },
-    "exclude": [
-        "../node_modules",
-        "build"
-    ],
-    "include": [
-        "lib/src/**/*"
-    ]
+    "exclude": ["node_modules", "build"],
+    "include": ["lib/src/**/*"]
 }
